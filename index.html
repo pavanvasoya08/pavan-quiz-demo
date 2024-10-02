@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="exam-bg">
+        <div class="container">
+
+            <div id="quiz-box" class="quiz-box">
+                <h2 id="qustion">Lorem ipsum dolor sit amet.</h2>
+                <ul id="option">
+
+                </ul>
+                <div class="quiz-box-wrapper">
+                    <button id="nextBtn" type="button" disabled>Next</button>
+                    <button id="submitBtn" type="submit" class="hidden">Submit</button>
+                </div>
+            </div>
+
+            <div id="ans-box" class="quiz-box hidden">
+                <div class="ans-box">
+                    <div class="ans-total">
+                        <h1>Quiz Result</h1>
+                        <!-- <p> Correct <span id="correctAns">10</span></p>
+                        <p> Worng <span id="worngAns">10</span></p>
+                        <p> skipped <span id="skipAns">10</span></p> -->
+                        <p>Your Score: <span id="correctAns"></span></p>
+                    </div>
+                    <ul id="ansOption">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="time">
+            Time Left: <span id="timeNum"></span>s
+        </div>
+
+    </section>
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
